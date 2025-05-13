@@ -1,0 +1,73 @@
+body {
+  font-family: 'Gamja Flower', cursive;
+  background-color: #fffef9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-bottom: 3px dashed #90caf9;
+}
+
+h1 {
+  font-family: 'Gamja Flower', cursive; /* ✅ 제목 폰트 통일 */
+  font-size: 36px;                      /* ✅ 포트폴리오 크기로 통일 */
+  margin: 0 0 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.nav-link {
+  margin: 0 15px;
+  color: #2196f3;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.home-link {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #1976d2;
+  text-decoration: none;
+}
+
+main {
+  padding: 30px;
+}
+
+.message-box, .content-box {
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffffd9;
+
+  font-family: 'Gamja Flower', cursive;  /* ✅ 설명 텍스트도 통일 */
+  font-size: 22px;                        /* ✅ 설명 크기 통일 */
+  line-height: 1.6;
+}
+
+.photo {
+  width: 240px;           /* ✅ 기존보다 1.5~2배 크게 */
+  height: auto;           /* ✅ 비율 유지 */
+  border-radius: 0;       /* ✅ 직사각형 유지 */
+  object-fit: contain;    /* ✅ 전체 이미지가 잘리지 않게 */
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
